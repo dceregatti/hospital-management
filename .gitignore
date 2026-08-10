@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Diretórios
+notebook/
+data/
 # Python (scripts de ETL)
 .venv/
 venv/
