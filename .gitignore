@@ -5,7 +5,13 @@
 
 # Diretórios
 notebook/
-data/
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
 # Python (scripts de ETL)
 .venv/
 venv/
